@@ -30,7 +30,7 @@ class Blockchain:
             # Accepts an URL without scheme like '192.168.0.5:5000'.
             self.nodes.add(parsed_url.path)
         else:
-            raise ValueError('Invalid URL')
+            raise ValueError('Invalid URL')#
 
 
     def valid_chain(self, chain):
