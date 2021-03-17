@@ -1,2 +1,2 @@
-# deezchain
+#$deezchain
 Basic blockchain in pytrhon
