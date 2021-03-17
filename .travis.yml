@@ -4,6 +4,6 @@ python:
   - 3.8
   - nightly
 install:
-  - pip install requests, flask
+  - pip install requests flask
 script:
   - python -m src
