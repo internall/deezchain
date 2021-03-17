@@ -3,6 +3,7 @@ language: python
 python:
   - 3.8
   - nightly
-
+install:
+  - pip install requests
 script:
   - python -m src
